@@ -18,5 +18,21 @@ A data pipeline that automatically COPIES the csv's uploaded to an S3 bucket's f
 
 5th Create a table in redshift
 
+![Alt text](images/SQl1.JPG)
+
 6th PULL THE TRIGGER
 
+ a) Add a new CSV into the S3 bucket/folder/
+ b) Monitor logs on Lambda
+ 
+![Alt text](images/montioreo logs.JPG)
+![Alt text](images/el log.JPG)
+![Alt text](images/logs correctos.JPG)
+
+ b.1) This were the old rows
+ 
+ ![Alt text](images/result.JPG)
+ 
+ c) Check for the new columns on Redshift
+
+ ![Alt text](images/ananidos.JPG)
