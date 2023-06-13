@@ -12,15 +12,15 @@ A data pipeline that automatically COPIES the csv's uploaded to an S3 bucket's f
 
 a 
 
-![Alt text](images/Add trigger 1.JPG)
+![Alt text](images/Add_trigger1.JPG)
 
 a
 
-![Alt text](images/add trigger 2.JPG)
+![Alt text](images/add_trigger2.JPG)
 
 a
 
-![Alt text](images/Vpc's conf.JPG)
+![Alt text](images/Vpc_conf.JPG)
 
 4th Code on the lambda function which will grab the new csv's and copy them into the redshift table, appending the data to the table.
 
@@ -33,9 +33,9 @@ a
  a) Add a new CSV into the S3 bucket/folder/
  b) Monitor logs on Lambda
  
-![Alt text](images/montioreo logs.JPG)
-![Alt text](images/el log.JPG)
-![Alt text](images/logs correctos.JPG)
+![Alt text](images/montioreo_logs.JPG)
+![Alt text](images/el_log.JPG)
+![Alt text](images/logs_correctos.JPG)
 
  b.1) This were the old rows
  
