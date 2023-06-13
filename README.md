@@ -44,3 +44,6 @@ a
  c) Check for the new columns on Redshift
 
  ![Alt text](images/ananidos.JPG)
+ 
+ 
+ ** Remember there was a lil problem with the IGNORE HEADER. Tehre shouldnt a CSV with a header. In case your CSV has a header edit the code form the lambda function.
