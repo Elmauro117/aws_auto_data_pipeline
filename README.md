@@ -10,9 +10,15 @@ A data pipeline that automatically COPIES the csv's uploaded to an S3 bucket's f
 
 3rd step is to create a lambda function, on the lambda UI we have to change the timeout, add the trigger which is S3, add the permissions, edit the VPC (should be the same VPC of the Redshift cluster), create event notifications, and ad the Layer necessary to run the cod Psycopg2.
 
+a 
+
 ![Alt text](images/Add trigger 1.JPG)
 
+a
+
 ![Alt text](images/add trigger 2.JPG)
+
+a
 
 ![Alt text](images/Vpc's conf.JPG)
 
